@@ -17,7 +17,7 @@ start() {
         return
     fi
     
-    source ./RYU-ENV/bin/activate
+    source ./RYU-ENV-3.9/bin/activate
 #    nohup ryu-manager --verbose --log-file=$LOG_FILE --ofp-tcp-listen-port=6653 $RYU_APP > /dev/null 2>&1 &
     ryu-manager --verbose ryu.app.simple_switch_13
     echo $! > $PID_FILE
