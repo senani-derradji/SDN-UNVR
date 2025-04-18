@@ -43,8 +43,8 @@ install_ryu() {
     sudo add-apt-repository ppa:deadsnakes/ppa -y
     sudo apt update
     sudo apt install python3.9 python3-pip python3-dev libssl-dev libffi-dev python3.9-venv -y
-    python3.9 -m venv RYU-ENV
-    source ./RYU-ENV/bin/activate
+    python3.9 -m venv RYU-ENV-3.9
+    source ./RYU-ENV-3.9/bin/activate
     pip install -r ./RYU-ENV/requirements.txt
     status "Ryu installation completed"
 }
