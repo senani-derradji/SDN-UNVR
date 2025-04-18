@@ -6,7 +6,7 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 # No sudo needed here - Ryu doesn't require root privileges
-if [ -f "RYU-ENV/bin/activate" ]; then
+if [ -f "RYU-ENV-3.9/bin/activate" ]; then
     . RYU-ENV/bin/activate  # Using dot (.) instead of source
     echo -e "${GREEN}Virtual environment activated${NC}"
 else
