@@ -15,6 +15,7 @@ fi
 sudo apt install lolcat -y
 clear
 figlet -f slant "SDN Controller Setup" | lolcat
+echo -e "${YELLOW}         S A L A M ${NC}"
 echo -e "${YELLOW}Created by Derradji Senani${NC}"
 echo -e "${BLUE}========================================${NC}"
 echo
